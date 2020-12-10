@@ -4,5 +4,4 @@ asyncpg>=0.18.3
 Pillow>=6.0.0
 discord>=1.0.1
 future
-ssl
 
