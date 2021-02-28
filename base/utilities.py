@@ -37,6 +37,7 @@ class Rank:
         bg = Image.open('codm.png')
         bg.resize((100,100))
 
+
         profile_bytes = profile_bytes.resize((120,120), Image.ANTIALIAS)
         bigsize = (profile_bytes.size[0] * 3, profile_bytes.size[1] * 3)
         mask = Image.new('L', bigsize, 0)
