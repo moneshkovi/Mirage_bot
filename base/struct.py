@@ -8,3 +8,5 @@ class Config:
         self.postgresql_password = cfg['postgresql_password']
         self.min_message_xp = cfg['min_message_xp']
         self.max_message_xp = cfg['max_message_xp']
+
+        
