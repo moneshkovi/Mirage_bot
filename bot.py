@@ -29,6 +29,6 @@ class Bot(commands.Bot):
         
 
 if __name__ == '__main__':
-    Bot().startup()
+    Bot().startup() 
 
     
