@@ -2,7 +2,7 @@ from __future__ import annotations
 from discord.ext import commands
 from base.struct import Config
 import json
-import discord
+import discord 
 intents = discord.Intents.default()
 intents.members = True
 
