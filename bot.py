@@ -13,7 +13,7 @@ class Bot(commands.Bot):
             description='Discord bot leveling system example.',
             intents = intents,help_command=None
         )
-
+  
         with open('config.json', 'r') as f:
             self.cfg = Config(json.loads(f.read()))
 
