@@ -8,7 +8,7 @@ intents.members = True
 
 class Bot(commands.Bot):
     def __init__(self):
-        super().__init__(
+        super().__init__( 
             command_prefix='.',
             description='Discord bot leveling system example.',
             intents = intents,help_command=None
