@@ -1,6 +1,6 @@
 from __future__ import annotations
 from discord.ext import commands
-from base.struct import Config
+from base.struct import Config 
 import json
 import discord 
 intents = discord.Intents.default()
