@@ -7,7 +7,7 @@ import asyncpg
 import ssl
 ctx = ssl.create_default_context(cafile='rds-combined-ca-bundle.pem')
 ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
+ctx.verify_mode = ssl.CERT_NONE 
 class Database:
     def __init__(self, loop, user: str, password: str) -> None:
         self.user = user
