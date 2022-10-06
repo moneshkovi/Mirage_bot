@@ -2,7 +2,7 @@ from __future__ import annotations
 from asyncio import sleep as asyncsleep
 from base.utilities import utilities
 from discord.ext import commands
-from random import randint
+from random import randint 
 from io import BytesIO
 from discord import File as dFile
 from discord import Member as dMember
