@@ -1,6 +1,6 @@
 from __future__ import annotations
 from discord.ext import commands
-from base.struct import Config 
+from base.struct import Config  
 import json
 import discord 
 intents = discord.Intents.default()
@@ -8,7 +8,7 @@ intents.members = True
 
 class Bot(commands.Bot):
     def __init__(self):
-        super().__init__( 
+        super().__init__(  
             command_prefix='.',
             description='Discord bot leveling system example.',
             intents = intents,help_command=None
