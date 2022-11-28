@@ -30,7 +30,7 @@ class Leveling(commands.Cog):
         Legendary = discord.utils.get(message.guild.roles, name = "Legendary")
         Mythical = discord.utils.get(message.guild.roles, name="Mythical")
         if result[0][0] >= 5 and Enthusiast not in message.author.roles:
-            await message.author.add_roles(Enthusiast)
+            await message.author.add_roles(Enthusiast)    
             await message.channel.send(f"{message.author.mention} has been promoted to Enthusiast")
         elif result[0][0] >=15 and Rookie not in message.author.roles:
             await message.author.add_roles(Rookie)
